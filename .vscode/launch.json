@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Debugger - App Console",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Debugger\\app_console.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Debugger - App If",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Debugger\\app_if.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Number - App",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Number\\app.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Objects - App Loop",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Objects\\app_loop.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Set - App Loop",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Set\\app_loop.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Set - App Objects Key",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Set\\app_objects_key.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Conclusion - App",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Conclusion\\app.js"
+        }
+    ]
+}
